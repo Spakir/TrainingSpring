@@ -18,6 +18,7 @@ public class Demo1Application {
         System.out.println("---------------------------------------------\nБИНЫ СОЗДАЛИСЬ");
         MusicPlayer musicPlayer = (MusicPlayer) appContext.getBean(MusicPlayer.class);
         musicPlayer.playMusic();
+        System.out.println("Something...");
 
     }
 }
