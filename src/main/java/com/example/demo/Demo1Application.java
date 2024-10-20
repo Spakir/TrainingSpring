@@ -19,6 +19,7 @@ public class Demo1Application {
         MusicPlayer musicPlayer = (MusicPlayer) appContext.getBean(MusicPlayer.class);
         musicPlayer.playMusic();
         System.out.println("Something...");
+        System.out.println("SOMETHING ELSE!");
 
     }
 }
